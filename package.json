@@ -1,11 +1,29 @@
 {
-  "name": "cinenav_react_1",
+  "name": "cinenav_react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0"
+    "@material-ui/core": "^4.5.0",
+    "@material-ui/icons": "^4.4.3",
+    "@material-ui/lab": "^4.0.0-alpha.29",
+    "axios": "^0.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "emailjs-com": "^2.4.1",
+    "firebase": "^7.1.0",
+    "firebase-admin": "^8.8.0",
+    "http2": "^3.3.7",
+    "jwt-decode": "^2.2.0",
+    "react": "^16.10.2",
+    "react-device-detect": "^1.9.10",
+    "react-dom": "^16.10.2",
+    "react-infinite-scroll-component": "^4.5.3",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "redux": "^4.0.4",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "xhr": "^2.5.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,5 +45,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "https://us-central1-test-cinenav.cloudfunctions.net/api"
 }

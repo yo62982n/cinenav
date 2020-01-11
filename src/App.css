@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta|Raleway|Supermercado+One&display=swap');
+
+body {
+  font-family: -apple-system, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
+  "Helvetica Neue", Sans-serif;
+}
 .App {
   text-align: center;
+  background: #f7f7f7;
+  /* flex: 1 0 auto;
+  -moz-box-flex: 1;
+  -webkit-box-flex: 1; */
 }
 
 .App-logo {
@@ -19,4 +29,116 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.container {
+  margin: 64px auto 0 auto;
+  max-width: 1200px;
+}
+
+.gr__localhost {
+  background: #f7f7f7;
+}
+
+.footer {
+  background: violet;  
+}
+
+.gapContentFooter{
+  min-height: 2rem;
+}
+
+.vhhundred{
+  min-height: 100vh;
+}
+
+.searchBarContainer {
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: inline-flex;
+  width: 100%
+}
+
+.searchBarContainer form {
+  width: 100%
+}
+
+.searchBar {
+  flex: 1;
+  width: 90%;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-right: none;
+  height: 2.15rem;
+  border: 1px solid grey;
+  margin-top: 2px;
+}
+
+.searchBarContainer button {
+  border : 1px solid grey;
+  border-left: none;
+  margin-bottom : 3px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.newsBody {
+  text-align : left;
+}
+
+#likeButton.iconDisabled,
+#dislikeButton.iconDisabled {
+  color : gray;
+}
+
+#likeButton.iconActive,
+#dislikeButton.iconActive {
+  color: black;
+}
+
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.form-inline button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+}
+
+.form-inline button:hover {
+  background-color: royalblue;
+}
+
+.marginTop {
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  .form-inline input,
+  .form-inline button {
+    margin: 10px 10px 10px 10px;
+    width: 100%
+  }
+
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
 }
